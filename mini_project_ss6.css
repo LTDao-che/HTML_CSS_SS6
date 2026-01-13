@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f9ff;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #0369a1;
+    font-weight: bold;
+}
+.header, .footer, .link{
+    text-align: center;
+}
+
+.header{
+    background-color: #ccfbf1;
+    color: #0f766e;
+}
+.link{
+    font-weight: bold;
+    background-color: #e0f2fe;
+}
+a:hover{
+    background-color: #0284c7;
+    color: white;
+}
+h2{
+    color: #155e75;
+}
+.content:hover{
+    color: #1e40af;
+    background-color: #dbeafe;
+}
+.footer{
+    color: white;
+    background-color: #0f766e;
+}
+.word{
+    background-color: white;
+}
+table{
+    
+    border-collapse: collapse;
+}
+tr{
+    background-color: white;
+}
+tr:hover{
+    background-color: #e0f2fe;
+}
+th{
+    background-color: #bae6fd;
+    color: #075985;
+}
+label{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: #134e4a;
+}
+.service{
+    background-color: #f0f9ff;
+}
+[type="submit"]{
+    background-color: #0ea5a4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: larger;
+}
+[type="email"], [type="text"], [type="tel"], select, textarea, [type="date"]{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+}
+[type="email"], [type="text"], [type="tel"]{
+    width: 100%;
+}
+.appointment{
+    background-color: #f0f9ff;
+}

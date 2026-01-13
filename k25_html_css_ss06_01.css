@@ -1,0 +1,41 @@
+body{
+    font-family: cursive;
+    background-color: #fff7ed;
+}
+img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #92400e;
+}
+.header, .footer, .link{
+    
+    text-align: center;
+}
+
+.header{
+    background-color: #fde68a;
+}
+.link{
+    font-weight: bold;
+    background-color: #fed7aa;
+}
+a:hover{
+    background-color: #90490f;
+    color: white;
+}
+.header, .footer, .link,h2{
+    color: #92400e;
+}
+.content:hover{
+    color: yellow;
+    background-color: #78350f;
+}
+.footer{
+    color: white;
+    background-color: #78350f;
+}
