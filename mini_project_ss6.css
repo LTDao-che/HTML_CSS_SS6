@@ -71,15 +71,16 @@ label{
     font-weight: bold;
     cursor: pointer;
     font-size: larger;
+    padding-left: auto;
+    padding-right: auto;
+    margin: auto;
+    display: block;
 }
 [type="email"], [type="text"], [type="tel"], select, textarea, [type="date"]{
     display: block;
     padding-left: auto;
     padding-right: auto;
     margin: auto;
-}
-[type="email"], [type="text"], [type="tel"]{
-    width: 100%;
 }
 .appointment{
     background-color: #f0f9ff;
